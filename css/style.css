@@ -1,0 +1,29 @@
+/* Typography */
+
+h1 {
+
+}
+
+h2 {
+   
+}
+
+h3 {
+    
+}
+
+/* Layout */
+
+header {
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+}
+
+#baby-james {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
