@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <title> James Kim's Homepage </title>
         <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="top"></div>
         <header>
-            <h1> Hi! I'm James! </h1>
+            <h1> Hello, I'm James! </h1>
         </header>
         <main>
             <div class="introduction">
-                <img id="baby-james" src="images/babyjames.jpeg" alt="Baby James" >
-                <h2> I'm currently pursuing Computer Science at Cornell University </h2>
+                <div class="images">
+                    <img src="images/babyjames.jpeg" alt="Baby James" class="baby-james">
+                    <img src="images/about-me.png" alt="A little about me" class="intro-photo">
+                </div>
+            </div>
+            <div class="connect">
+                <a class="social-icon" href="mailto:jjk297@cornell.edu" target="_blank">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+                <a class="social-icon" href="https://www.linkedin.com/in/james-kim-49572b163/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a class="social-icon" href="https://github.com/doctakim" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a class="social-icon" href="https://www.instagram.com/doctakim/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
             </div>
         </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
 

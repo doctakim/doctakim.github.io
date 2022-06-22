@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 /* Typography */
 
 h1 {
@@ -14,16 +19,56 @@ h3 {
 
 /* Layout */
 
+.top {
+    color: #1D1F24;
+    background-color: #1D1F24;
+    padding: 2rem;
+}
+
 header {
     text-align: center;
+    font-size: 2rem;
+    margin: 5rem auto 6rem auto;
 }
 
 .introduction {
-    text-align: center;
+    margin: 50px auto;
 }
 
-#baby-james {
-    width: 200px;
-    height: auto;
-    margin: 20px;
+.images {
+    display: flex;
+    margin: 0 0 0 19rem;
+    width: 40%;
+}
+
+.baby-james {
+    height: 300px;
+    width: auto;
+    padding: 0 20px;
+}
+
+.intro-photo {
+    height: 300px;
+    width: auto;
+    padding: 0 20px 0 0;
+}
+
+.connect {
+    background-color: #1D1F24;
+    text-align: center;
+    padding: 1rem;
+    margin: 100px auto;
+}
+
+.social-icon {
+    padding: 2rem;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 32px;
+    transition: 0.2s;
+}
+
+.social-icon:hover {
+    /* color: #333; */
+    color: white;
 }
